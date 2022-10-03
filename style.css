@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+}
+header .top-nav-strip{
+ background-color: #33a137;
+    padding: 12px;
+}
+header .top-inner-nav-strip{
+    margin: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    
+
+
+}
+header .top-inner-nav-strip ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+align-items: center;
+    
+}
+header .top-inner-nav-strip ul li div img{
+    width: 20px; 
+    
+}
+header .top-inner-nav-strip ul li{
+    display: flex;
+    padding:0px 10px;
+    
+    
+}
+header .top-inner-nav-strip ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    align-items: center;
+    
+}
+header .top-inner-nav-strip ul li a img{
+    
+    width: 24px;
+    padding:0px ;
+    margin: 0px;
+    
+    
+    
+    
+}
+
+header .top-inner-nav-strip ul li input{
+
+    background-color: transparent;
+    border: #fff solid 1px;
+    border-radius: 4px;
+    width: 7rem;
+    height: 1.5rem;
+    align-items: center;
+    
+}
+header .top-inner-nav-strip ul li input:focus-visible{
+
+   outline: none;
+    
+}
+header .top-inner-nav-strip ul li button{
+   
+   background-color: #fff;
+   border: #fff solid 1px; 
+   border-radius: 4px; 
+      
+    }
+    header .top-inner-nav-strip ul li button span{
+   
+        padding:20px 8px;
+        margin: 12px 0px;
+           
+         }
+header .top-inner-nav-strip ul li button:hover{
+background-color: #f8f8f8;
+    
+}
+header .top-primary-nav-bar{
+    background-color: #f7f7f7;
+
+}
+.top-primary-inner-nav-bar{
+   margin: 0px;
+   padding: 12px;
+}
+.top-primary-inner-nav-bar ul{
+    list-style-type: none;
+    
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    
+}
+.top-primary-inner-nav-bar li{
+    list-style-type: none;
+   
+    display: flex;
+    padding:0px 10px;
+}
+.top-primary-inner-nav-bar a{
+    
+
+    text-decoration: none;
+    color: #848484;
+    text-transform: uppercase;
+    font-size: 14px;
+    align-items: center;
+}
+.top-primary-inner-nav-bar a img{
+    width: 150px;
+    padding:0px ;
+    margin: 0px; 
+    height: 20px; 
+
+    
+}
+main section .main-posture img{
+    width: 100%;
+}
+
+
+main section .main-posture {
+    width: 80px;
+    height: 80px;
+    background-color:rgba(0 , 0 , 0 , 1);
+    top: 0;
+    
+    
+}

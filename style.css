@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'Lato', sans-serif;
 }
 header .top-nav-strip{
  background-color: #33a137;
@@ -56,8 +57,9 @@ header .top-inner-nav-strip ul li a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12.5px;
     align-items: center;
+    font-weight: 700;
     
 }
 header .top-inner-nav-strip ul li a img{
@@ -166,8 +168,10 @@ header .top-primary-nav-bar{
     text-decoration: none;
     color: #848484;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 12.60px;
     align-items: center;
+    text-transform: uppercase;
+    padding: 0 5px;
 }
 .top-primary-inner-nav-bar a img{
     width: 135px;
@@ -179,8 +183,117 @@ header .top-primary-nav-bar{
     
 }
 main{
-    width: 100%;
+
 }
-main section image{
-    width: 100%;
+main section{
+position: relative;
+display: flex;
 }
+
+
+
+main section.search-section  img{
+    width: 100%;
+    
+}
+
+main section div.over-layer{
+    position: absolute;
+   inset: 0;
+  background-color: rgba(0 , 0, 0, 0.4);
+    }
+    main section div.over-layer div.search-area-box {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        flex-wrap: wrap;
+       
+        }
+        main section div.over-layer div.search-area-box h3{
+           margin: 0px;
+           padding: 0px;
+            }
+        main section div.over-layer div.search-area-box ul {
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+
+           
+            }
+            main section div.over-layer div.search-area-box ul  li {
+                list-style-type: none;
+                padding: 12px;
+                margin: 12px;
+           
+            }
+            main section div.over-layer div.search-area-box ul  li button{
+         
+          padding: 12px 20px;
+         
+            }
+            main section div.over-layer div.search-area-box ul  li button{
+         
+          padding: 12px 20px;
+         
+            }
+            main section div.over-layer div.search-area-box ul  li button{
+         
+          padding: 12px 20px;
+         
+            }
+            main section div.over-layer div.search-property-bar {
+                margin: 12px;
+         
+                
+               
+                  }
+                  main section div.over-layer div.search-property-bar ul {
+                  width: 100%;
+                
+               
+                }
+                main section div.over-layer div.search-property-bar ul li {
+                   margin: 0px;
+                  
+
+         
+                
+               
+                }
+                
+ main section div.over-layer div.search-property-bar li input{
+                 
+               height: 40px;    }
+ section {
+
+
+ }
+ div .exlore-things{
+
+
+}
+div .exlore-things .explore-card-wraper {
+
+
+}
+div .exlore-things .explore-card-wraper{
+
+
+}
+div .exlore-things{
+
+
+}
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
